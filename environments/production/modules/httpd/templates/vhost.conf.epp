@@ -1,0 +1,5 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host.example.com
+    DocumentRoot <%= $document_root %>
+    ServerName <%= $server_ip %>
+</VirtualHost>

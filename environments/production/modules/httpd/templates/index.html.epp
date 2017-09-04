@@ -1,0 +1,1 @@
+<html><h1>Hello from <%= $facts['osfamily'] %></h1></html>

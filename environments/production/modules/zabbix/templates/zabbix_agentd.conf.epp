@@ -1,0 +1,10 @@
+DebugLevel=3
+Server=<%= $listenIP %>
+ListenPort=<%= $listenPort %>
+StartAgents=<%= $startAgents %>
+Hostname=<%= $hostname %>
+LogFile=/var/log/zabbix/zabbix_agentd.log
+PidFile=/var/run/zabbix/zabbix_agentd.pid
+
+
+
